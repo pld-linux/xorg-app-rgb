@@ -11,9 +11,9 @@ Patch0:		rgb-man.patch
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf
 BuildRequires:	automake
-BuildRequires:	xorg-util-util-macros
 BuildRequires:	pkgconfig >= 0.19
 BuildRequires:	xorg-proto-xproto-devel
+BuildRequires:	xorg-util-util-macros
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
