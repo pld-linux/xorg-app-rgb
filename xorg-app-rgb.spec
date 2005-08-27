@@ -1,4 +1,4 @@
-# $Rev: 3360 $, $Date: 2005-08-15 12:17:57 $
+# $Rev: 3360 $, $Date: 2005-08-27 17:42:47 $
 #
 Summary:	rgb application
 Summary(pl):	Aplikacja rgb
@@ -14,7 +14,7 @@ URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	xorg-util-util-macros
-BuildRequires:	pkg-config
+BuildRequires:	pkgconfig >= 0.19
 BuildRequires:	xorg-proto-xproto-devel
 BuildRoot:	%{tmpdir}/rgb-%{version}-root-%(id -u -n)
 
