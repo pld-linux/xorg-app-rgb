@@ -1,12 +1,12 @@
 Summary:	rgb application
 Summary(pl):	Aplikacja rgb
 Name:		xorg-app-rgb
-Version:	0.99.3
+Version:	1.0.0
 Release:	0.1
 License:	MIT
 Group:		X11/Applications
-Source0:	http://xorg.freedesktop.org/releases/X11R7.0-RC3/app/rgb-%{version}.tar.bz2
-# Source0-md5:	b8b58f314056ac4253d7920934562251
+Source0:	http://xorg.freedesktop.org/releases/X11R7.0/src/app/rgb-%{version}.tar.bz2
+# Source0-md5:	04349739e0ce2a8557d32ffc55cb8d69
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
