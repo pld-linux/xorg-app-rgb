@@ -1,5 +1,5 @@
 Summary:	rgb application
-Summary(pl.UTF-8):   Aplikacja rgb
+Summary(pl.UTF-8):	Aplikacja rgb
 Name:		xorg-app-rgb
 Version:	1.0.1
 Release:	1
