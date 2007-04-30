@@ -1,5 +1,5 @@
-Summary:	rgb application
-Summary(pl.UTF-8):	Aplikacja rgb
+Summary:	rgb color-name database and showrgb application
+Summary(pl.UTF-8):	Baza danych nazw kolorów rgb i aplikacja showrgb
 Name:		xorg-app-rgb
 Version:	1.0.1
 Release:	1
@@ -18,10 +18,12 @@ Requires:	xorg-lib-libX11
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-rgb application.
+This package contains color-name database (rgb.txt) and showrgb
+application to uncompile such database from dbm to source format.
 
 %description -l pl.UTF-8
-Aplikacja rgb.
+Ten pakiet zawiera bazę danych nazw kolorów (rgb.txt) oraz aplikację
+showrgb do dekompilacji takiej bazy z formatu dbm do źródłowego.
 
 %prep
 %setup -q -n rgb-%{version}
