@@ -1,12 +1,12 @@
 Summary:	rgb color-name database and showrgb application
 Summary(pl.UTF-8):	Baza danych nazw kolorów rgb i aplikacja showrgb
 Name:		xorg-app-rgb
-Version:	1.0.1
+Version:	1.0.3
 Release:	1
 License:	MIT
 Group:		X11/Applications
 Source0:	http://xorg.freedesktop.org/releases/individual/app/rgb-%{version}.tar.bz2
-# Source0-md5:	255222b3ab3af671289a6b4844e9f393
+# Source0-md5:	44ea16cc3104de6401bc74035f642357
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
